@@ -1,6 +1,6 @@
 # Buck's Portfolio
 
-> This entire site was built using CLI commands and AI, specifically Cursor IDE with Claude 3.5 Sonnet. Not a single line of code was edited by hand. All images were generated using [Microsoft Copilot Image Creator](https://copilot.microsoft.com/images/create) and edited with Microsoft Designer.
+> This entire site was built using CLI commands and AI, specifically Cursor IDE with Claude 3.5 Sonnet. Not a single line of code was edited by hand. All images were generated using <a href="https://copilot.microsoft.com/images/create" target="_blank">Microsoft Copilot Image Creator</a> and edited with Microsoft Designer.
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
