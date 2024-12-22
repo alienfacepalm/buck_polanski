@@ -1,0 +1,5 @@
+Buck Polanski is a Principal Engineer and Program Manager based in Sammamish, WA, with extensive expertise in full-stack development and creative technology solutions.
+
+Combining technical mastery with creative innovation, Buck has a unique talent for transforming complex challenges into elegant, user-centric solutions that push the boundaries of what's possible.
+
+Buck's technical repertoire encompasses front-end technologies like React and Angular, backend solutions in Rust and Golang, and mobile development with Flutter and React Native.
