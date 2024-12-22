@@ -25,14 +25,20 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen relative`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen relative flex flex-col`}
       >
         <div className="fixed inset-0 z-[-1]">
           <div className="absolute inset-0 bg-[url('/img/space.jpg')] bg-cover bg-center bg-fixed" />
-          <div className="absolute inset-0 bg-[url('/img/buck.png')] bg-cover bg-center opacity-20" />
+          <div className="absolute inset-0 bg-[url('/img/buck.png')] bg-cover bg-center opacity-10" />
           <div className="absolute inset-0 bg-black opacity-70" />
         </div>
-        {children}
+        <main className="flex-grow">
+          {children}
+        </main>
+        <footer className="text-center py-4 text-sm text-gray-400">
+          <p>Built with Cursor IDE + Claude 3.5 Sonnet • Images by Microsoft Copilot</p>
+          <p>© {new Date().getFullYear()} Buck Polanski</p>
+        </footer>
       </body>
     </html>
   );
