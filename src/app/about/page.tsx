@@ -7,7 +7,7 @@ const AboutPage = () => {
     <div className="max-w-3xl mx-auto py-12 px-4">
       <div className="flex flex-col items-center mb-8">
         <Image
-          src="/img/buck.jpg"
+          src="/img/photo.jpg"
           alt="Buck Polanski"
           width={300}
           height={300}
