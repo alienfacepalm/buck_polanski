@@ -1,8 +1,23 @@
+'use client'
+
 import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowLeftIcon } from '@heroicons/react/20/solid'
+import { useRouter } from 'next/navigation'
+import { useCallback } from 'react'
 
 const AboutPage = () => {
+  const router = useRouter()
+
+  const handleNavigation = useCallback((e: React.MouseEvent) => {
+    e.preventDefault()
+    const audio = new Audio('/sounds/back.mp3')
+    audio.play()
+    setTimeout(() => {
+      router.push('/')
+    }, 1000)
+  }, [router])
+
   return (
     <div className="max-w-3xl mx-auto py-12 px-4">
       <div className="flex flex-col items-center mb-8">
@@ -39,6 +54,7 @@ const AboutPage = () => {
         <Link 
           href="/" 
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+          onMouseDown={handleNavigation}
         >
           <ArrowLeftIcon className="h-5 w-5" />
           Back to Home
