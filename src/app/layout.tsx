@@ -29,6 +29,7 @@ export default function RootLayout({
       >
         <div className="fixed inset-0 z-[-1]">
           <div className="absolute inset-0 bg-[url('/img/space.jpg')] bg-cover bg-center bg-fixed" />
+          <div className="absolute inset-0 bg-[url('/img/buck.png')] bg-cover bg-center opacity-20" />
           <div className="absolute inset-0 bg-black opacity-70" />
         </div>
         {children}
