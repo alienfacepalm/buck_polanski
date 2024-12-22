@@ -22,15 +22,15 @@ const AboutPage = () => {
         </p>
 
         <p className="mb-4">
-          Born in a small mountain town, Buck discovered his passion for science while simultaneously becoming a world-class rock climber. By age 25, he had already published groundbreaking research on quantum entanglement while setting multiple free-climbing records in Yosemite.
+          Born in a small mountain town, Buck discovered his passion for science while simultaneously becoming a world-class wakeboarder. By age 25, he had already published groundbreaking research on quantum entanglement while training under wakeboarding legend Shaun Murray and setting multiple competition records.
         </p>
 
         <p className="mb-4">
-          When not revolutionizing our understanding of particle physics or scaling impossible peaks, Buck runs a critically acclaimed pop-up restaurant that fuses molecular gastronomy with traditional Polish cuisine. His signature dish, "Quantum Pierogi," has been featured in numerous international culinary magazines.
+          When not revolutionizing our understanding of particle physics or performing gravity-defying tricks behind the boat, Buck runs a critically acclaimed pop-up restaurant that fuses molecular gastronomy with traditional Polish cuisine. His signature dish, "Quantum Pierogi," has been featured in numerous international culinary magazines.
         </p>
 
         <p>
-          Currently, Buck splits his time between his research lab in Switzerland, various mountain expeditions, and teaching underprivileged youth how to code, climb, and cook.
+          Currently, Buck splits his time between his research lab in Switzerland, professional wakeboarding competitions, and teaching underprivileged youth how to code, wakeboard, and cook.
         </p>
       </div>
       
