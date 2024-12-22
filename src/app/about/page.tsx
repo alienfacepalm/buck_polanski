@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import { ArrowLeftIcon } from '@heroicons/react/20/solid'
 
 const AboutPage = () => {
   return (
@@ -22,7 +23,7 @@ const AboutPage = () => {
         </p>
 
         <p className="mb-4">
-          Born to Czech parents in a small mountain town nestled beside a pristine alpine lake, Buck discovered his passion for science while simultaneously becoming a world-class wakeboarder. Despite the scarcity of boats in his remote hometown, his determination led him to build innovative wakeboarding systems using pulleys and electric motors. By age 25, he had already published groundbreaking research on quantum entanglement while setting multiple wakeboarding records across international competitions.
+          Born to Czech parents in a small mountain town, Buck discovered his passion for science while simultaneously becoming a world-class wakeboarder. By age 25, he had already published groundbreaking research on quantum entanglement while setting multiple wakeboarding records across international competitions.
         </p>
 
         <p className="mb-4">
@@ -35,8 +36,12 @@ const AboutPage = () => {
       </div>
       
       <div className="mt-8">
-        <Link href="/" className="text-blue-600 hover:underline">
-          ← Back to Home
+        <Link 
+          href="/" 
+          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+        >
+          <ArrowLeftIcon className="h-5 w-5" />
+          Back to Home
         </Link>
       </div>
     </div>
