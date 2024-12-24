@@ -76,7 +76,7 @@ export default function Home() {
                     doorAudioRef.current.play().catch(() => {});
                     setTimeout(() => {
                       window.location.href = '/about';
-                    }, 1000);
+                    }, 3000);
                   }
                 }}
                 onMouseUp={(e) => {
